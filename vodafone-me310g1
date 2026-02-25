@@ -18,11 +18,11 @@
 #
 # Description
 # This file is the PPP file for the following modem:
-# 		CodeZoo LTE CATM1 Vodafone Modem: CZ-Type1SC
+# 		CodeZoo LTE CATM1 Vodafone Modem: CZ-ME310G1
 #
 # Instructions
-# 	1. 	You will need to add your APN in the file: vodafone-Type1SC-chat
-# 	2. 	This file is setup for PPP using the Raspberry Pi Zero W.
+# 	1. 	You will need to add your APN in the file: vodafone-me310g1-chat
+# 	2. 	This file is setup for PPP using the Raspberry Pi.
 
 /dev/ttyAMA0
 921600

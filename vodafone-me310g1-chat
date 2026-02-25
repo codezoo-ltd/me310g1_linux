@@ -18,14 +18,14 @@
 #
 # Description
 # This file is the PPP chat file for the following modem:
-# 		CodeZoo LTE CATM1 Vodafone Modem: CZ-Type1SC
+# 		CodeZoo LTE CATM1 Vodafone Modem: CZ-ME310G1
 #
 # Instructions
 # 	1. 	If you want to use another APN, You can change it in the following way.
 # 		Replace:
 # 			[apn]
 # 		with your APN. The default APN is set to Vodafone Global IoT SIM APN "simplio.apn"
-#	OK AT%APNN="[apn]"
+#	OK AT+CGDCONT=1,"IP","[apn]"
 
 TIMEOUT 5
 ECHO ON
